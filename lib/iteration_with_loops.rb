@@ -17,7 +17,7 @@ def find_min_in_nested_arrays(src)
       #outer_results.push(min_value)
       element_index += 1
     end
-    outer_results << lowest_value # "<<" is ruby's shortcut for pushing a single array item to an array
+    outer_results << min_value # "<<" is ruby's shortcut for pushing a single array item to an array
     row_index += 1
   end
   outer_results
